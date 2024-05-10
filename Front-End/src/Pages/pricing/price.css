@@ -1,0 +1,92 @@
+.price .items {
+  padding: 40px;
+  text-align: center;
+}
+.price h1 {
+  font-size: 50px;
+  margin: 20px 0;
+  color: #039ee3;
+}
+.price h1 span {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #000;
+}
+.price p {
+  color: grey;
+  margin: 40px 0;
+}
+
+/*--------------faq-------------*/
+.faq .container {
+  max-width: 70%;
+  margin: auto; /* Center align the container */
+  border-radius: 5px;
+}
+.faq .box {
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.faq button {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 20px;
+}
+.faq h2 {
+  font-weight: 500;
+}
+.faq p {
+  padding: 20px;
+}
+.faq .accordion:hover {
+  background-color: #039ee3;
+  color: #fff;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .price .items {
+    padding: 20px; /* Reduced padding for smaller screens */
+  }
+  .price h1 {
+    font-size: 30px; /* Smaller font size for h1 */
+  }
+  .price h1 span {
+    font-size: 15px; /* Smaller font size for spans within h1 */
+  }
+  .price p {
+    margin: 20px 0; /* Reduced margin for paragraphs */
+  }
+
+  .faq .container {
+    max-width: 90%; /* Increase the width for better use of space */
+  }
+  .faq button {
+    padding: 10px 15px; /* Adjust padding for better tap targets */
+  }
+  .faq p {
+    padding: 10px; /* Reduce padding to save space */
+  }
+}
+
+@media (max-width: 480px) {
+  .price h1 {
+    font-size: 24px; /* Even smaller font size for very small screens */
+  }
+  .price h1 span {
+    font-size: 12px; /* Smaller font size for span */
+  }
+
+  .faq .container {
+    max-width: 100%; /* Full width to maximize space */
+  }
+  .faq button {
+    padding: 8px 10px; /* Further reduced padding for smaller screens */
+  }
+  .faq h2 {
+    font-size: 16px; /* Smaller font size for headings */
+  }
+}

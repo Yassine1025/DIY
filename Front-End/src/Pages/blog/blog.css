@@ -1,0 +1,72 @@
+.blog img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio of images */
+}
+
+.blog .text {
+  padding: 40px 30px;
+}
+
+.blog h1 {
+  font-weight: 500;
+  font-size: 22px; /* Adjustable font size */
+  line-height: 30px;
+  margin: 20px 0;
+  transition: 0.5s;
+}
+
+.blog h1:hover {
+  color: #039ee3;
+  cursor: pointer;
+}
+
+.blog span {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #039ee3;
+}
+
+.blog span label {
+  margin-left: 10px;
+  color: grey;
+  font-size: 14px;
+}
+
+.blog span:nth-last-child(1) label {
+  color: #039ee3;
+}
+
+.blog p {
+  color: grey;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .blog .text {
+    padding: 20px 15px; /* Reduced padding for smaller screens */
+  }
+
+  .blog h1 {
+    font-size: 18px; /* Smaller font size for smaller screens */
+    line-height: 25px; /* Adjusted line height for readability */
+  }
+
+  .blog span label {
+    font-size: 12px; /* Smaller font size for labels */
+  }
+}
+
+@media (max-width: 480px) {
+  .blog .text {
+    padding: 10px; /* Minimal padding for very small screens */
+  }
+
+  .blog h1 {
+    font-size: 16px; /* Even smaller font size for mobile */
+    line-height: 22px;
+  }
+
+  .blog span label {
+    margin-left: 5px; /* Reduced margin for smaller screens */
+  }
+}

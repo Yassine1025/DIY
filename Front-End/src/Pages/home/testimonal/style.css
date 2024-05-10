@@ -1,0 +1,142 @@
+/* .testimonal .items {
+  padding: 30px;
+  transition: 0.5s;
+}
+
+.testimonal .img {
+  position: relative;
+}
+.testimonal img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.testimonal i {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  background-color: #039ee3;
+  color: #fff;
+}
+.testimonal .name {
+  margin: 25px;
+}
+.testimonal .name h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.testimonal .name span {
+  color: #039ee3;
+}
+.testimonal p {
+  margin-top: 20px;
+  color: grey;
+  transition: 0.5s;
+}
+.testimonal .items:hover {
+  background-color: #039ee3;
+  color: #fff;
+  cursor: pointer;
+}
+.testimonal .items:hover span,
+.testimonal .items:hover p {
+  color: #fff;
+}
+.testimonal .items:hover i {
+  background-color: #fff;
+  color: #039ee3;
+} */
+.testimonal .content{
+  display: flex;
+}
+.testimonal .items {
+  padding: 30px;
+  transition: 0.5s;
+}
+.testimonal .img {
+  position: relative;
+}
+.testimonal img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.testimonal i {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  background-color: #039ee3;
+  color: #fff;
+}
+.testimonal .name {
+  margin: 25px;
+}
+.testimonal .name h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.testimonal .name span {
+  color: #039ee3;
+}
+.testimonal p {
+  margin-top: 20px;
+  color: grey;
+  transition: 0.5s;
+}
+.testimonal .items:hover {
+  background-color: #039ee3;
+  color: #fff;
+  cursor: pointer;
+}
+.testimonal .items:hover span,
+.testimonal .items:hover p {
+  color: #fff;
+}
+.testimonal .items:hover i {
+  background-color: #fff;
+  color: #039ee3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .testimonal .items {
+    padding: 20px; /* Reduced padding for smaller screens */
+  }
+  .testimonal img {
+    width: 80px; /* Smaller image size */
+    height: 80px;
+  }
+  .testimonal .name {
+    margin: 15px; /* Reduced margin around the name */
+  }
+  .testimonal .name h2 {
+    font-size: 18px; /* Smaller font size for names */
+  }
+  .testimonal p {
+    font-size: 14px; /* Smaller font size for testimonials */
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonal .content {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .testimonal .items {
+
+    padding: 15px; /* Further reduced padding for very small screens */
+  }
+  .testimonal img {
+    width: 70px; /* Even smaller image size */
+    height: 70px;
+  }
+  .testimonal .name h2 {
+    font-size: 16px; /* Even smaller font size for very small screens */
+  }
+  .testimonal i {
+    left: 40px; /* Adjust icon position for smaller screens */
+  }
+}
+
+
